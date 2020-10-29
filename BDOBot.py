@@ -1,3 +1,5 @@
+$heroku create --buildpack https://github.com/heroku/heroku-buildpack-python.git
+    $ heroku buildpacks:set heroku/python
 from typing import Dict, List
 
 import discord
